@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 ### Telas da aplicação
+- [Clique aqui](https://github.com/samuelhuss/aucfinance/blob/main/diagrama%20de%20caso%20de%20uso.pdf)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
