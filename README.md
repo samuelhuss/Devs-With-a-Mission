@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
-- [Telas]
- ![Screenshot](imagens/Home.png)
+### Telas da aplicação
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
