@@ -4,6 +4,7 @@ import Footer from "../components/footer/footer";
 import img1 from '../components/img/img1.png'
 import img2 from '../components/img/img2.png'
 import {Link} from 'react-router-dom'
+import Chatbot from "./chatbot/chatbot";
 
 
 const Home = () => {
@@ -21,6 +22,8 @@ const Home = () => {
                     <img className="z-0 imagem1 " src={img1}/>
                     <img className="z-1 imagem ml-24" src={img2}/>
                 </div>
+
+                <Chatbot/>
             </div>
         <Footer/>
     </Fragment>

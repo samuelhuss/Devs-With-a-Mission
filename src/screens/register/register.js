@@ -3,6 +3,7 @@ import Navbar from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 import banner from "../../components/img/banner.png"
 import {Link} from 'react-router-dom'
+import Chatbot from "../chatbot/chatbot";
 
 const Register = () => {
     return(
@@ -59,7 +60,10 @@ const Register = () => {
       </div>
   </div>
         </div>
+        <Chatbot/>
+
         <Footer/>
+        
     </Fragment>
 
 )

@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Login from './screens/home/login.js'
 import Register from './screens/register/register.js'
+import Chatbot from './screens/chatbot/chatbot.js'
 
 const Rotas = () => (
     <BrowserRouter>
