@@ -7,7 +7,12 @@ import './style.css';
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([
-    { id: 1, text: "Bem-vindo! Como posso ajudar?", user: false, options: ["1 - Sobre nós", "2 - ONGs"] }
+    {
+      id: 1,
+      text: `Bem-vindo! Como posso ajudar? ${'\n'} Escolha uma das opções! ${'\n'} 1 - Sobre nós ${'\n'} 2 - ONG's`,
+      user: false,
+      options: ["1 - Sobre nós", "2 - ONGs"],
+    },
   ]);
   const [input, setInput] = useState('');
   const [language, setLanguage] = useState('pt'); // Defina o idioma padrão
